@@ -1,0 +1,6 @@
+framework module Pods_ATSGProgress {
+  umbrella header "Pods-ATSGProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}
