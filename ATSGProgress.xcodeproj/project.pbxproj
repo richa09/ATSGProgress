@@ -11,7 +11,6 @@
 		A9D6CD871DEEFF5800378CFA /* ATSGProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D6CD851DEEFF5800378CFA /* ATSGProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9D6CD901DEF004700378CFA /* ATSGProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8E1DEF004700378CFA /* ATSGProgress.swift */; };
 		A9D6CD911DEF004700378CFA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8F1DEF004700378CFA /* Extensions.swift */; };
-		A9D6CD931DEF005300378CFA /* ATSGProgress.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A9D6CD921DEF005300378CFA /* ATSGProgress.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		A9D6CD861DEEFF5800378CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D6CD8E1DEF004700378CFA /* ATSGProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATSGProgress.swift; sourceTree = "<group>"; };
 		A9D6CD8F1DEF004700378CFA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		A9D6CD921DEF005300378CFA /* ATSGProgress.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ATSGProgress.podspec; sourceTree = "<group>"; };
 		C4AA1856540B648256B23BF7 /* Pods-ATSGProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSGProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATSGProgress/Pods-ATSGProgress.debug.xcconfig"; sourceTree = "<group>"; };
 		C6ADFB81D9D9B90BAEA01163 /* Pods_ATSGProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATSGProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,7 +67,6 @@
 			children = (
 				A9D6CD8D1DEF002400378CFA /* Files */,
 				A9D6CD851DEEFF5800378CFA /* ATSGProgress.h */,
-				A9D6CD921DEF005300378CFA /* ATSGProgress.podspec */,
 				A9D6CD861DEEFF5800378CFA /* Info.plist */,
 			);
 			path = ATSGProgress;
@@ -165,7 +162,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D6CD931DEF005300378CFA /* ATSGProgress.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +374,7 @@
 				A9D6CD8C1DEEFF5800378CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
