@@ -8,23 +8,49 @@
 
 /* Begin PBXBuildFile section */
 		5768553243A159DEF4C48E72 /* Pods_ATSGProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6ADFB81D9D9B90BAEA01163 /* Pods_ATSGProgress.framework */; };
+		A92555F31DF33FFB00556EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92555F21DF33FFB00556EA6 /* AppDelegate.swift */; };
+		A92555F51DF33FFB00556EA6 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92555F41DF33FFB00556EA6 /* MasterViewController.swift */; };
+		A92555FA1DF33FFB00556EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92555F81DF33FFB00556EA6 /* Main.storyboard */; };
+		A92555FC1DF33FFB00556EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92555FB1DF33FFB00556EA6 /* Assets.xcassets */; };
+		A92555FF1DF33FFB00556EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92555FD1DF33FFB00556EA6 /* LaunchScreen.storyboard */; };
+		A92556061DF3536B00556EA6 /* ATSGProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8E1DEF004700378CFA /* ATSGProgress.swift */; };
+		A92556071DF3536D00556EA6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8F1DEF004700378CFA /* Extensions.swift */; };
 		A9D6CD871DEEFF5800378CFA /* ATSGProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D6CD851DEEFF5800378CFA /* ATSGProgress.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9D6CD901DEF004700378CFA /* ATSGProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8E1DEF004700378CFA /* ATSGProgress.swift */; };
 		A9D6CD911DEF004700378CFA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D6CD8F1DEF004700378CFA /* Extensions.swift */; };
+		EEEADB29329D73E44F3CD7B4 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA8F3255BE1FEB9979EA798 /* Pods_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7865590CDE56B915A957F4B4 /* Pods-ATSGProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSGProgress.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATSGProgress/Pods-ATSGProgress.release.xcconfig"; sourceTree = "<group>"; };
+		A5CF437BE576D660CAFB9101 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A92555F01DF33FFB00556EA6 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92555F21DF33FFB00556EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A92555F41DF33FFB00556EA6 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		A92555F91DF33FFB00556EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92555FB1DF33FFB00556EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92555FE1DF33FFB00556EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92556001DF33FFB00556EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D6CD821DEEFF5800378CFA /* ATSGProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATSGProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D6CD851DEEFF5800378CFA /* ATSGProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ATSGProgress.h; sourceTree = "<group>"; };
 		A9D6CD861DEEFF5800378CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D6CD8E1DEF004700378CFA /* ATSGProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATSGProgress.swift; sourceTree = "<group>"; };
 		A9D6CD8F1DEF004700378CFA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ABA8F3255BE1FEB9979EA798 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4AA1856540B648256B23BF7 /* Pods-ATSGProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATSGProgress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATSGProgress/Pods-ATSGProgress.debug.xcconfig"; sourceTree = "<group>"; };
 		C6ADFB81D9D9B90BAEA01163 /* Pods_ATSGProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATSGProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33C9C1A73F0B54A66A864E1 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A92555ED1DF33FFB00556EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEADB29329D73E44F3CD7B4 /* Pods_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D6CD7E1DEEFF5800378CFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,14 +66,29 @@
 			isa = PBXGroup;
 			children = (
 				C6ADFB81D9D9B90BAEA01163 /* Pods_ATSGProgress.framework */,
+				ABA8F3255BE1FEB9979EA798 /* Pods_Example.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A92555F11DF33FFB00556EA6 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				A92555F21DF33FFB00556EA6 /* AppDelegate.swift */,
+				A92555F41DF33FFB00556EA6 /* MasterViewController.swift */,
+				A92555F81DF33FFB00556EA6 /* Main.storyboard */,
+				A92555FB1DF33FFB00556EA6 /* Assets.xcassets */,
+				A92555FD1DF33FFB00556EA6 /* LaunchScreen.storyboard */,
+				A92556001DF33FFB00556EA6 /* Info.plist */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 		A9D6CD781DEEFF5800378CFA = {
 			isa = PBXGroup;
 			children = (
 				A9D6CD841DEEFF5800378CFA /* ATSGProgress */,
+				A92555F11DF33FFB00556EA6 /* Example */,
 				A9D6CD831DEEFF5800378CFA /* Products */,
 				D5CE8501C4CBF7CE604CA52D /* Pods */,
 				33EF0DC5C8157BB06D38A473 /* Frameworks */,
@@ -58,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A9D6CD821DEEFF5800378CFA /* ATSGProgress.framework */,
+				A92555F01DF33FFB00556EA6 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +128,8 @@
 			children = (
 				C4AA1856540B648256B23BF7 /* Pods-ATSGProgress.debug.xcconfig */,
 				7865590CDE56B915A957F4B4 /* Pods-ATSGProgress.release.xcconfig */,
+				A5CF437BE576D660CAFB9101 /* Pods-Example.debug.xcconfig */,
+				E33C9C1A73F0B54A66A864E1 /* Pods-Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -104,6 +148,26 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A92555EF1DF33FFB00556EA6 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92556011DF33FFB00556EA6 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				847E37F051CE9D194ECEA1F9 /* [CP] Check Pods Manifest.lock */,
+				A92555EC1DF33FFB00556EA6 /* Sources */,
+				A92555ED1DF33FFB00556EA6 /* Frameworks */,
+				A92555EE1DF33FFB00556EA6 /* Resources */,
+				B72E7D160761B82853C049C7 /* [CP] Embed Pods Frameworks */,
+				60F5A61B8D6E7EEB050ADA71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = A92555F01DF33FFB00556EA6 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A9D6CD811DEEFF5800378CFA /* ATSGProgress */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9D6CD8A1DEEFF5800378CFA /* Build configuration list for PBXNativeTarget "ATSGProgress" */;
@@ -130,9 +194,15 @@
 		A9D6CD791DEEFF5800378CFA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "ASG APPS S.L";
 				TargetAttributes = {
+					A92555EF1DF33FFB00556EA6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = N2XS3C9QH6;
+						ProvisioningStyle = Automatic;
+					};
 					A9D6CD811DEEFF5800378CFA = {
 						CreatedOnToolsVersion = 8.0;
 						LastSwiftMigration = 0800;
@@ -146,6 +216,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A9D6CD781DEEFF5800378CFA;
 			productRefGroup = A9D6CD831DEEFF5800378CFA /* Products */;
@@ -153,11 +224,22 @@
 			projectRoot = "";
 			targets = (
 				A9D6CD811DEEFF5800378CFA /* ATSGProgress */,
+				A92555EF1DF33FFB00556EA6 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A92555EE1DF33FFB00556EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92555FF1DF33FFB00556EA6 /* LaunchScreen.storyboard in Resources */,
+				A92555FC1DF33FFB00556EA6 /* Assets.xcassets in Resources */,
+				A92555FA1DF33FFB00556EA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D6CD801DEEFF5800378CFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -183,6 +265,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATSGProgress/Pods-ATSGProgress-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		60F5A61B8D6E7EEB050ADA71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		847E37F051CE9D194ECEA1F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B72E7D160761B82853C049C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D93F7269A5E705CB691F8DC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -201,6 +328,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A92555EC1DF33FFB00556EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92555F51DF33FFB00556EA6 /* MasterViewController.swift in Sources */,
+				A92556061DF3536B00556EA6 /* ATSGProgress.swift in Sources */,
+				A92555F31DF33FFB00556EA6 /* AppDelegate.swift in Sources */,
+				A92556071DF3536D00556EA6 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9D6CD7D1DEEFF5800378CFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -212,7 +350,54 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		A92555F81DF33FFB00556EA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92555F91DF33FFB00556EA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92555FD1DF33FFB00556EA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92555FE1DF33FFB00556EA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		A92556021DF33FFB00556EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CF437BE576D660CAFB9101 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2XS3C9QH6;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asgapps.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A92556031DF33FFB00556EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E33C9C1A73F0B54A66A864E1 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = N2XS3C9QH6;
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asgapps.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		A9D6CD881DEEFF5800378CFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -358,6 +543,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A92556011DF33FFB00556EA6 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92556021DF33FFB00556EA6 /* Debug */,
+				A92556031DF33FFB00556EA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A9D6CD7C1DEEFF5800378CFA /* Build configuration list for PBXProject "ATSGProgress" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

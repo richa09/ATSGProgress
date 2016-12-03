@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>NVActivityIndicatorView-iOS10.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NVActivityIndicatorView-iOS8.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ATSGProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Example.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -12,7 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>014CF99B68A742DE9123146FB5C149F7</key>
+		<key>273A6BC9D7231CFF7B9CFA20B252DC11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>52E122C064D80202810B1BC9531F085F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B96A7DD52CE803458EE9E1AB9823929</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DDDF9FCF2C5F641434AF02DDE6974138</key>
 		<dict>
 			<key>primary</key>
 			<true/>

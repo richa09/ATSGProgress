@@ -20,8 +20,11 @@ s.homepage     = "https://github.com/asgapps/ATSGProgress"
 s.authors      = { "Antonio Serrano" => "serranogomezantonio@gmail.com" }
 s.license      = "MIT"
 s.source       = { :git => "https://github.com/asgapps/ATSGProgress.git", :tag => s.version }
-s.source_files  = "ATSGLoader/Files/*.swift"
+s.source_files  = "ATSGProgress/Files/*.swift"
 s.ios.deployment_target = "8.0"
+
+s.framework = "UIKit"
+s.dependency 'NVActivityIndicatorView', '~> 3.0'
 
 
 end
