@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "ATSGProgress"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "ATSGProgress is a simple activity indicator to use in all application."
 s.description  = <<-DESC
 ATSGProgress is a simple activity indicator to use in all application. This Library display a activity indicator loading view with text in a center of screen and disable user interaction.
