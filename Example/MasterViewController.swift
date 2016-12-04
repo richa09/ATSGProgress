@@ -65,7 +65,7 @@ class MasterViewController: UITableViewController {
         } else if indexPath.row == 2 {
             showCustomProgress()
         }else {
-            showCustomIndicator(index: indexPath.row - 3)
+            showCustomIndicator(index: indexPath.row - 2)
         }
         
         tableView.deselectRow(at: indexPath, animated: true)
