@@ -98,7 +98,8 @@ open class ATSGProgress: NSObject {
     static open var backRadius:CGFloat = 8
     static open var indicatorStyle:IndicatorStyle?
     static open var indicatorColor:UIColor?
-    
+    static open var backViewColor:UIColor?
+
     static open func showLoadingViewWithMessage(msg: String? = nil){
         
         if backView != nil {
@@ -128,7 +129,7 @@ open class ATSGProgress: NSObject {
         
         // Create full transparent view
         backView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height))
-        backView!.backgroundColor = UIColor.clear
+        backView!.backgroundColor = backViewColor //UIColor.clear
         
         // Create center parent view
         let messageBackView:UIView = UIView(frame: CGRect(x: 0, y: 0, width: backSize, height: sizeBackView))
